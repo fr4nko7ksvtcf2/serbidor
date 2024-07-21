@@ -1,4 +1,3 @@
-# fr_FR translation by maxime_n2 & SevenX
 # Plugin Message Prefix
 prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
 
@@ -82,6 +81,7 @@ group-save-success: '&aVos particules actuelles ont été sauvegardées sous le 
 group-save-success-overwrite: '&aLe groupe &b%name% &aa été mis à jour avec vos particules actuelle !'
 group-load-success: '&b%amount% &aparticule(s) appliqués venant du groupe sauvegardé nommé &b%name% &a!'
 group-load-preset-success: '&b%amount% &aparticule(s) appliqués venant du preset sauvegardé nommé &b%name% &a!'
+group-unload-success: '&aEnlevé &b%amount% &aparticle(s) correspondant au groupe &b%name%&a !'
 group-remove-preset: '&cVous ne pouvez pas supprimer un groupe de presets !'
 group-remove-success: '&aGroupe de particules &b%name% &asupprimé !'
 group-info-header: '&eLe groupe &b%group% &eposséde les particules suivantes :'
@@ -263,8 +263,10 @@ gui-edit-primary-data-description: Editer les paramères de votre effet primaire
 
 # GUI Manage Particles Messages
 gui-manage-your-particles: Gérez vos particules
+gui-manage-your-particles-name: Gérez vos particules
 gui-manage-your-particles-description: Créez, éditez, et supprimez vos particules
 gui-manage-your-groups: Gérez vos groupes
+gui-manage-your-groups-name: Gérez vos groupes
 gui-manage-your-groups-description: Créez, éditez, et supprimez vos groupes particules
 
 # GUI Load Messages
@@ -334,6 +336,3 @@ gui-edit-data-color-black: '#000000Noir'
 gui-edit-data-color-gray: '#808080Gris'
 gui-edit-data-color-light-gray: '#c0c0c0Gris Clair'
 gui-edit-data-color-white: '#ffffffBlanc'
-group-unload-success: '&aEnlevé &b%amount% &aparticle(s) correspondant au groupe &b%name%&a !'
-gui-manage-your-particles-name: Gérez vos particules
-gui-manage-your-groups-name: Gérez vos groupes

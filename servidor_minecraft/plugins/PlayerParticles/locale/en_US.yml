@@ -1,4 +1,3 @@
-# en_US translation by Esophose
 # Plugin Message Prefix
 prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
 
@@ -82,6 +81,7 @@ group-save-success: '&aYour current particles have been saved under the group na
 group-save-success-overwrite: '&aThe group named &b%name% &ahas been updated with your current particles!'
 group-load-success: '&aApplied &b%amount% &aparticle(s) from your saved group named &b%name%&a!'
 group-load-preset-success: '&aApplied &b%amount% &aparticle(s) from the preset group named &b%name%&a!'
+group-unload-success: '&aRemoved &b%amount% &aparticle(s) matching the group &b%name%&a!'
 group-remove-preset: '&cYou cannot remove a preset group!'
 group-remove-success: '&aRemoved the particle group named &b%name%&a!'
 group-info-header: '&eThe group &b%group% &ehas the following particles:'
@@ -263,8 +263,10 @@ gui-edit-primary-data-description: Edit the data of your primary particle
 
 # GUI Manage Particles Messages
 gui-manage-your-particles: Manage Your Particles
+gui-manage-your-particles-name: Manage Your Particles
 gui-manage-your-particles-description: Create, edit, and delete your particles
 gui-manage-your-groups: Manage Your Groups
+gui-manage-your-groups-name: Manage Your Groups
 gui-manage-your-groups-description: Create, delete, and load your particle groups
 
 # GUI Load Messages
@@ -334,6 +336,3 @@ gui-edit-data-color-black: '#000000Black'
 gui-edit-data-color-gray: '#808080Gray'
 gui-edit-data-color-light-gray: '#c0c0c0Light Gray'
 gui-edit-data-color-white: '#ffffffWhite'
-group-unload-success: '&aRemoved &b%amount% &aparticle(s) matching the group &b%name%&a!'
-gui-manage-your-particles-name: Manage Your Particles
-gui-manage-your-groups-name: Manage Your Groups

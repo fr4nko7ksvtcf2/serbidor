@@ -14,6 +14,13 @@ epicrename:
   - '&6/export <hand,inventory>'
   - '&6/import <hand,inventory> <webLink>'
   - '&6/import raw <rawYAML>'
+  - '&6/removename'
+  - '&6/removelore'
+  - '&6/hideenchantments'
+  - '&6/unhideenchantments'
+  - '&6/addloreline <text>'
+  - '&6/editname'
+  - '&6/editlore'
   - '&6See more command help at https://www.spigotmc.org/resources/epicrename.4341/'
   - '&6/epicrename <help, license, reload, debug, version>'
   reload_success: '&aReloaded the plugin successfully!'
@@ -35,7 +42,7 @@ rename:
   cannot_rename_air: '&cSorry you can''t rename nothing.'
   no_permission_for_material: '&cSorry you don''t have permission for that material.'
   success: '&aRenamed the item successfully.'
-  log: '&aThe player &f{player} &ajust renamed an item to: &f"{name}&f"&a.'
+  log: '&aThe player &f{player} &ajust renamed an item to: &f"{new_name}&f"&a.'
   disabled_world: '&cYou are in a disabled world.'
 lore:
   no_permission: '&cSorry you don''t have permission to perform that command.'
@@ -203,6 +210,60 @@ hideenchantments:
   cannot_edit_air: '&cSorry you can''t edit nothing.'
   no_permission_for_material: '&cSorry you don''t have permission for that material.'
   success: '&aEnchantments on this item have been hidden.'
+unhideenchantments:
+  no_permission: '&cSorry you don''t have permission to perform that command.'
+  wrong_sender: '&cSorry only a player can use that command.'
+  disabled_world: '&cYou are in a disabled world.'
+  blacklisted_material_found: '&cSorry that material is blacklisted.'
+  blacklisted_existing_name_found: '&cSorry that item has an existing name that is
+    blacklisted.'
+  blacklisted_existing_lore_found: '&cSorry that item has an existing line of lore
+    that is blacklisted.'
+  cannot_edit_air: '&cSorry you can''t edit nothing.'
+  no_permission_for_material: '&cSorry you don''t have permission for that material.'
+  success: '&aEnchantments on this item have been unhidden.'
+addloreline:
+  no_permission: '&cSorry you don''t have permission to perform that command.'
+  wrong_sender: '&cSorry only a player can use that command.'
+  wrong_args: '&cYou need to place some arguments after /addloreline. /addloreline
+    <text>'
+  blacklisted_word_found: '&cSorry that lore contains a blacklisted word.'
+  blacklisted_material_found: '&cSorry that material is blacklisted.'
+  blacklisted_existing_name_found: '&cSorry that item has an existing name that is
+    blacklisted.'
+  blacklisted_existing_lore_found: '&cSorry that item has an existing line of lore
+    that is blacklisted.'
+  cannot_edit_air: '&cSorry you can''t relore nothing.'
+  no_permission_for_material: '&cSorry you don''t have permission for that material.'
+  success: '&aAdded lore to the item successfully.'
+  disabled_world: '&cYou are in a disabled world.'
+editname:
+  no_permission: '&cSorry you don''t have permission to perform that command.'
+  wrong_sender: '&cSorry only a player can use that command.'
+  disabled_world: '&cYou are in a disabled world.'
+  blacklisted_material_found: '&cSorry that material is blacklisted.'
+  blacklisted_existing_name_found: '&cSorry that item has an existing name that is
+    blacklisted.'
+  blacklisted_existing_lore_found: '&cSorry that item has an existing line of lore
+    that is blacklisted.'
+  cannot_edit_air: '&cSorry you can''t edit nothing.'
+  no_permission_for_material: '&cSorry you don''t have permission for that material.'
+  no_displayname: '&cSorry that item doesn''t have a display name set.'
+  click_to_edit: '&a&nClick on this message to start editing the name of this item.'
+editlore:
+  no_permission: '&cSorry you don''t have permission to perform that command.'
+  wrong_sender: '&cSorry only a player can use that command.'
+  disabled_world: '&cYou are in a disabled world.'
+  blacklisted_material_found: '&cSorry that material is blacklisted.'
+  blacklisted_existing_name_found: '&cSorry that item has an existing name that is
+    blacklisted.'
+  blacklisted_existing_lore_found: '&cSorry that item has an existing line of lore
+    that is blacklisted.'
+  cannot_edit_air: '&cSorry you can''t edit nothing.'
+  no_permission_for_material: '&cSorry you don''t have permission for that material.'
+  no_lore: '&cSorry that item doesn''t have any lore set.'
+  lore_content_empty: '&cSorry the lore on this item appears to have no content.'
+  click_to_edit: '&a&nClick on this message to start editing the lore of this item.'
 rename_character_limit:
   name_too_long: '&cSorry that name is too long. The character limit is {char}.'
   bypass_msg: '&aYou just bypassed the character limit of {char}.'
@@ -239,57 +300,3 @@ exploit_prevention:
     Please remove glow from the item first with /removeglow.'
   no_anvil_with_glowing_items: '&cYou cannot use an anvil on a glowing item. Please
     remove glow from the item first with /removeglow.'
-unhideenchantments:
-  no_permission: '&cSorry you don''t have permission to perform that command.'
-  wrong_sender: '&cSorry only a player can use that command.'
-  disabled_world: '&cYou are in a disabled world.'
-  blacklisted_material_found: '&cSorry that material is blacklisted.'
-  blacklisted_existing_name_found: '&cSorry that item has an existing name that is
-    blacklisted.'
-  blacklisted_existing_lore_found: '&cSorry that item has an existing line of lore
-    that is blacklisted.'
-  cannot_edit_air: '&cSorry you can''t edit nothing.'
-  no_permission_for_material: '&cSorry you don''t have permission for that material.'
-  success: '&aEnchantments on this item have been unhidden.'
-addloreline:
-  no_permission: '&cSorry you don''t have permission to perform that command.'
-  wrong_sender: '&cSorry only a player can use that command.'
-  wrong_args: '&cYou need to place some arguments after /addloreline. /addloreline
-    <text>'
-  blacklisted_word_found: '&cSorry that lore contains a blacklisted word.'
-  blacklisted_material_found: '&cSorry that material is blacklisted.'
-  blacklisted_existing_name_found: '&cSorry that item has an existing name that is
-    blacklisted.'
-  blacklisted_existing_lore_found: '&cSorry that item has an existing line of lore
-    that is blacklisted.'
-  cannot_edit_air: '&cSorry you can''t relore nothing.'
-  no_permission_for_material: '&cSorry you don''''t have permission for that material.'
-  success: '&aAdded lore to the item successfully.'
-  disabled_world: '&cYou are in a disabled world.'
-editname:
-  no_permission: '&cSorry you don''t have permission to perform that command.'
-  wrong_sender: '&cSorry only a player can use that command.'
-  disabled_world: '&cYou are in a disabled world.'
-  blacklisted_material_found: '&cSorry that material is blacklisted.'
-  blacklisted_existing_name_found: '&cSorry that item has an existing name that is
-    blacklisted.'
-  blacklisted_existing_lore_found: '&cSorry that item has an existing line of lore
-    that is blacklisted.'
-  cannot_edit_air: '&cSorry you can''t edit nothing.'
-  no_permission_for_material: '&cSorry you don''t have permission for that material.'
-  no_displayname: '&cSorry that item doesn''t have a display name set.'
-  click_to_edit: '&a&nClick on this message to start editing the name of this item.'
-editlore:
-  no_permission: '&cSorry you don''t have permission to perform that command.'
-  wrong_sender: '&cSorry only a player can use that command.'
-  disabled_world: '&cYou are in a disabled world.'
-  blacklisted_material_found: '&cSorry that material is blacklisted.'
-  blacklisted_existing_name_found: '&cSorry that item has an existing name that is
-    blacklisted.'
-  blacklisted_existing_lore_found: '&cSorry that item has an existing line of lore
-    that is blacklisted.'
-  cannot_edit_air: '&cSorry you can''t edit nothing.'
-  no_permission_for_material: '&cSorry you don''t have permission for that material.'
-  no_lore: '&cSorry that item doesn''t have any lore set.'
-  lore_content_empty: '&cSorry the lore on this item appears to have no content.'
-  click_to_edit: '&a&nClick on this message to start editing the lore of this item.'

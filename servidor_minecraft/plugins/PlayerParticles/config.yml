@@ -5,15 +5,6 @@
 #      |____|   |____(____  / ____|\___  >__|  |____|    (____  /__|   |__| |__|\___  >____/\___  >____  >
 #                         \/\/         \/                     \/                    \/          \/     \/
 
-# Check for new versions of the plugin
-# Default: true
-check-updates: true
-
-# If metrics should be sent to bStats
-# I would appreciate it if you left this enabled, it helps me get statistics on how the plugin is used
-# Default: true
-send-metrics: true
-
 # The locale to use in the /locale folder
 # Default: en_US
 locale: en_US
@@ -160,6 +151,17 @@ gui-group-creation-message-display-area: ACTION_BAR
 # Default: false
 gui-group-creation-bungee-support: false
 
+# If true, applying a preset group will not overwrite the current active particles
+# Note: This does not check permissions against the max particles setting, use with caution
+# Default: false
+preset-groups-allow-overlapping: false
+
+# If true, applying a preset group with overlapping enabled will only allow one particle per style
+# Existing particles that cause duplicate styles will be overwritten
+# This setting has no effect if preset-groups-allow-overlapping is set to false
+# Default: false
+preset-groups-overlapping-one-per-style: false
+
 # The colors of the glass in the GUI
 # Valid colors: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html
 gui-border-colors:
@@ -179,14 +181,14 @@ gui-border-colors:
   # Default: BLUE
   edit-style: BLUE
 
-  # Default: GREEN
-  load-preset-groups: GREEN
-
   # Default: BROWN
   manage-groups: BROWN
 
   # Default: ORANGE
   manage-particles: ORANGE
+
+  # Default: GREEN
+  load-preset-groups: GREEN
 
 # Settings for WorldGuard
 # If WorldGuard is not installed, these settings will do nothing
@@ -219,49 +221,6 @@ worldguard-settings:
   # the player to bypass the region requirements
   # Default: false
   enable-bypass-permission: false
-
-# Settings for if you want to use MySQL for data management
-mysql-settings:
-
-  # Enable MySQL
-  # If false, SQLite will be used instead
-  # Default: false
-  enabled: false
-
-  # MySQL Database Hostname
-  # Default: 
-  hostname: ''
-
-  # MySQL Database Port
-  # Default: 3306
-  port: 3306
-
-  # MySQL Database Name
-  # Default: 
-  database-name: ''
-
-  # MySQL Database User Name
-  # Default: 
-  user-name: ''
-
-  # MySQL Database User Password
-  # Default: 
-  user-password: ''
-
-  # The prefix of the tables in the database
-  # Do not change this after tables have already been created or you will have data loss
-  # Default: playerparticles_
-  table-prefix: playerparticles_
-
-  # If the database connection should use SSL
-  # You should enable this if your database supports SSL
-  # Default: false
-  use-ssl: false
-
-  # The size of the connection pool to the database
-  # Not recommended to go below 2 or above 5
-  # Default: 5
-  connection-pool-size: 5
 
 # This configuration option allows you to change the GUI
 # icons to whatever block/item you want. If you want to change an effect
@@ -299,15 +258,39 @@ gui-icon:
     reset:
       - BARRIER
 
-# That's everything! You reached the end of the configuration.
-# Enjoy the plugin!
-# If true, applying a preset group will not overwrite the current active particles
-# Note: This does not check permissions against the max particles setting, use with caution
-# Default: false
-preset-groups-allow-overlapping: false
+# Settings for if you want to use MySQL for data management
+mysql-settings:
 
-# If true, applying a preset group with overlapping enabled will only allow one particle per style
-# Existing particles that cause duplicate styles will be overwritten
-# This setting has no effect if preset-groups-allow-overlapping is set to false
-# Default: false
-preset-groups-overlapping-one-per-style: false
+  # Enable MySQL
+  # If false, SQLite will be used instead
+  # Default: false
+  enabled: false
+
+  # MySQL Database Hostname
+  # Default: 
+  hostname: ''
+
+  # MySQL Database Port
+  # Default: 3306
+  port: 3306
+
+  # MySQL Database Name
+  # Default: 
+  database-name: ''
+
+  # MySQL Database User Name
+  # Default: 
+  user-name: ''
+
+  # MySQL Database User Password
+  # Default: 
+  user-password: ''
+
+  # If the database connection should use SSL
+  # You should enable this if your database supports SSL
+  # Default: false
+  use-ssl: false
+
+  # The number of connections to make to the database
+  # Default: 3
+  connection-pool-size: 3

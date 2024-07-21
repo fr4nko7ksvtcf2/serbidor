@@ -2,10 +2,10 @@
 # Valid options: BARRIER, SHULKER, NONE
 # Any invalid selection will be set to the default for your version
 method:
-  door: BARRIER
-  drawbridge: BARRIER
-  portcullis: BARRIER
-  sliding: BARRIER
+  door: SHULKER
+  drawbridge: SHULKER
+  portcullis: SHULKER
+  sliding: SHULKER
 
 ### Shulker Options
 
