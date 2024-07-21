@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNjA0NjA2NzUzMSwKICAicHJvZmlsZUlkIiA6ICI1YjgyNWFhODhkYzQ0NzRlYjNhN2U4NGExYWYwMTgzMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzZXhvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZlOTA5ZWZjYTVkZTQ0OTQ2ZmE2ZjFjMzkyNmRmMjVjOTFmYmJhNWFhY2IwNjc1OWE4MWFlNmIxMjM4Y2U1ZWMiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE1M2IxYTBkZmNiYWU5NTNjZGViNmYyYzJiZjZiZjc5OTQzMjM5YjEzNzI3ODBkYTQ0YmNiYjI5MjczMTMxZGEiCiAgICB9CiAgfQp9",
+    "signature": "MlbDKy/MDUD1vZWAGiiOvRaDHpN6Zm/R0TpgeI3+q8PXK9PD1CBO7LofzB2OTbj4giKrhGEU5iVYCu8fcBuNbCGUvmO6Jydj0tPZIN24MI5P9v7zdergLWjrC0wnyJWsVc6qI33PH72aqMgNSkDP3JRc3adXUob0fdJzO8eJTXpmSUkVERdOHaycHgmL+jah+JFh1ETulmx69vyNOqrHpySby9tc0v6ha/jSGs+2O8YTpb1Z4gMTumkYjOMSeqkJzKgwXKw55VY02Ip40gkmrrXQYjRf82vozf5fO8u3+NucvZ7uYbBtEHcscRuN+KAXWQ0D8pjRJFbsjU1/g6cT73tAABQFqHIFfPoQtDE7q3U3DfcDf11Dri+bXKjPIy0yQ1MqmgbAejKNStkLtfvdNfm5a4aCRkiD7z0V6a3tA4j1zw+YIHQmkuPtvOl8RAQ108nvPCjyIFHRiLKciRWuwefIykUs2H5w167wlx5GTPf72qD84gFfywV9ZqWxX/fxofmF5BO9JT2WFuWflDTS0AgY92NHNrD7OLYcyHfv05WB6QiUH0aK8Mn2bG2UHzhfE880prcDKdbvyrkydeogMs7CnF3fgIk64HL/pWWyM7tM2YismfxPA5lCCuT1a9/2qJse1ddZIqI+e26/+B3qzd7rUz8icGGS+a/v66a05iw=",
+    "skinName": "Steve",
+    "location": {
+      "world": "shinganshina1",
+      "x": 27.5,
+      "y": 67.0,
+      "z": 3.5,
+      "yaw": -93.46924,
+      "pitch": 15.3009815
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "sexo"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "/setblock 34 67 6 minecraft:glowstone",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "setblock 34 67 6 minecraft:glowstone",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "setblock 34 67 6 minecraft:glowstone cmd /setblock 34 69 6 minecraft:glowstone",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true
+    },
+    "customizationMap": {}
+  }
+]
