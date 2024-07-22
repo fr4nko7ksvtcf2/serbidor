@@ -304,7 +304,7 @@ settings:
       # Graves automatically adds models into ItemsAdder, if you want to use it you will need to re-generate your pack and use "graves:grave" as the furniture name.
       itemsadder:
         furniture:
-          enabled: true # Should we use ItemsAdder furniture?
+          enabled: false # Should we use ItemsAdder furniture?
           name: "graves:grave" # Furniture name.
         block:
           enabled: false # Should we use ItemsAdder blocks?
@@ -330,11 +330,7 @@ settings:
       playernpc:
         corpse:
           enabled: false # Should we create a corpse?
-          pose: "SLEEPING" # What pose should the entity use? https://sergiferry.github.io/PlayerNPC/dev/sergiferry/playernpc/api/NPC.Pose.html
-          offset:
-            x: 0 # Corpse offset X.
-            y: 0 # Corpse offset Y.
-            z: 0 # Corpse offset Z.
+          pose: "SWIMMING" # What pose should the entity use? https://sergiferry.github.io/PlayerNPC/dev/sergiferry/playernpc/api/NPC.Pose.html
           armor: true # Should the corpse wear the players armor?
           hand: true # Should the corpse hold the players items?
           collide: false # Should corpses be collidable?
@@ -637,15 +633,6 @@ settings:
               #  model-data: -1
               #  lore:
               #    - "Toggle grave protection"
-
-              #3: # open your grave remotely, you can uncomment this if you want.
-              #  material: "CHEST"
-              #  function: "virtual"
-              #  name: "open grave"
-              #  glow: false
-              #  model-data: -1
-              #  lore:
-              #    - "Open your grave remotely"
 
           graveyard:
             title: "Graveyards"

@@ -6,6 +6,7 @@ effect-name: large_smoke
 # Default: true
 enabled: true
 
-# Default: [STRING]
+# Default: [COBWEB, WEB]
 gui-icon-material:
-  - STRING
+  - COBWEB
+  - WEB

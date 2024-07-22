@@ -1,3 +1,4 @@
+# ru_RU translation by Dimatron74
 # Plugin Message Prefix
 prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
 
@@ -81,7 +82,6 @@ group-save-success: '&aВаши эффекты были сохранены в г
 group-save-success-overwrite: '&aГруппа &b%name% &aбыла обновлена с Вашими частицами!'
 group-load-success: '&aИз группы &b%name%&a прикреплено частиц - &b%amount%!'
 group-load-preset-success: '&aИз группы &b%name%&a прикреплено частиц - &b%amount%'
-group-unload-success: '&aУдалено &b%amount% &aчастиц, соответствующих группе &b%name%&a!'
 group-remove-preset: '&cВы не можете удалить заданную группу!'
 group-remove-success: '&aУдалена группа под названием &b%name%&a!'
 group-info-header: '&eГруппа &b%group% &eимеет следующие частицы:'
@@ -263,10 +263,8 @@ gui-edit-primary-data-description: Изменение данных Ваших ч
 
 # GUI Manage Particles Messages
 gui-manage-your-particles: Создать свой эффект
-gui-manage-your-particles-name: Создать свой эффект
 gui-manage-your-particles-description: Создание, изменение и удаление Ваших частиц
 gui-manage-your-groups: Управление группами
-gui-manage-your-groups-name: Управление группами
 gui-manage-your-groups-description: Создание, изменение и удаление Ваших групп
 
 # GUI Load Messages
@@ -334,3 +332,6 @@ gui-edit-data-color-black: '#000000черный'
 gui-edit-data-color-gray: '#808080серый'
 gui-edit-data-color-light-gray: '#c0c0c0светло-серый'
 gui-edit-data-color-white: '#ffffffбелый'
+group-unload-success: '&aУдалено &b%amount% &aчастиц, соответствующих группе &b%name%&a!'
+gui-manage-your-particles-name: Создать свой эффект
+gui-manage-your-groups-name: Управление группами

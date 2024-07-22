@@ -1,3 +1,4 @@
+# es_ES translation by Polinus7
 # Plugin Message Prefix
 prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
 
@@ -81,7 +82,6 @@ group-save-success: '&aSus partículas actuales se han guardado en el grupo llam
 group-save-success-overwrite: '&aEl grupo llamado &b%name% &ase ha actualizado con sus partículas actuales!'
 group-load-success: '&Aplicadas &b%amount% &aparticulas de tu grupo guardado llamado &b%name%&a!'
 group-load-preset-success: '&aAplicado &b%amount% &aparticulas del grupo preestablecido llamado &b%name%&a!'
-group-unload-success: '&aSe han eliminado &b%amount% &aparticipación(es) que coinciden con el grupo &b%name%&a!'
 group-remove-preset: '&cNo puedes eliminar un grupo preestablecido!'
 group-remove-success: '&aSe eliminó el grupo de partículas llamado &b%name%&a!'
 group-info-header: '&eEl grupo &b%group% &etiene las siguientes partículas:'
@@ -263,10 +263,8 @@ gui-edit-primary-data-description: Edite los datos de su partícula primaria
 
 # GUI Manage Particles Messages
 gui-manage-your-particles: Administra tus particulas
-gui-manage-your-particles-name: Administra tus particulas
 gui-manage-your-particles-description: Crea, edita y elimina tus partículas
 gui-manage-your-groups: Administra tus grupos
-gui-manage-your-groups-name: Administra tus grupos
 gui-manage-your-groups-description: Cree, elimine y cargue sus grupos de partículas
 
 # GUI Load Messages
@@ -336,3 +334,6 @@ gui-edit-data-color-black: '#000000Negro'
 gui-edit-data-color-gray: '#808080Gris'
 gui-edit-data-color-light-gray: '#c0c0c0Gris Claro'
 gui-edit-data-color-white: '#ffffffBlanco'
+group-unload-success: '&aSe han eliminado &b%amount% &aparticipación(es) que coinciden con el grupo &b%name%&a!'
+gui-manage-your-particles-name: Administra tus particulas
+gui-manage-your-groups-name: Administra tus grupos

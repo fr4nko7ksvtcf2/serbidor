@@ -1,3 +1,4 @@
+# pl_PL translation by THE___BULDI___
 # Plugin Message Prefix
 prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
 
@@ -81,7 +82,6 @@ group-save-success: '&aTwoje aktualne efekty zostały zapisane w grupie &b%name%
 group-save-success-overwrite: '&agrupa efektówd &b%name% &azostała zaaktualizowana o twoje aktualne efekty!'
 group-load-success: '&aZaładowano &b%amount% &aefektów z grupy efektów &b%name%&a!'
 group-load-preset-success: '&aZaładowano &b%amount% &aefektów z presetu administracyjnego &b%name%&a!'
-group-unload-success: '&aUsunięto &b%amount% &aparticle(s) pasujące do grupy &b%name%&a!'
 group-remove-preset: '&cNie możesz usuwać presetów administracyjnych!'
 group-remove-success: '&aUsunięto grupę efektów &b%name%&a!'
 group-info-header: '&eGrupa &b%group% &ema następujące efekty:'
@@ -263,10 +263,8 @@ gui-edit-primary-data-description: Kliknij aby edytować dane twojego głównego
 
 # GUI Manage Particles Messages
 gui-manage-your-particles: Zarządzaj Swoimi Efektami
-gui-manage-your-particles-name: Zarządzaj Swoimi Efektami
 gui-manage-your-particles-description: Twórz, edytuj oraz usuwaj twoje efekty
 gui-manage-your-groups: Zarządzaj Swoimi Grupami
-gui-manage-your-groups-name: Zarządzaj Swoimi Grupami
 gui-manage-your-groups-description: Twórz, edytuj oraz usuwaj twoje grupy efektów
 
 # GUI Load Messages
@@ -336,3 +334,6 @@ gui-edit-data-color-black: '#000000Black'
 gui-edit-data-color-gray: '#808080Gray'
 gui-edit-data-color-light-gray: '#c0c0c0Light Gray'
 gui-edit-data-color-white: '#ffffffWhite'
+group-unload-success: '&aUsunięto &b%amount% &aparticle(s) pasujące do grupy &b%name%&a!'
+gui-manage-your-particles-name: Zarządzaj Swoimi Efektami
+gui-manage-your-groups-name: Zarządzaj Swoimi Grupami

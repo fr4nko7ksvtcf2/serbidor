@@ -1,3 +1,4 @@
+# zh_CN translation by qsefthuopq
 # Plugin Message Prefix
 prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
 
@@ -81,7 +82,6 @@ group-save-success: '&a你当前使用的粒子特效已成功保存入粒子组
 group-save-success-overwrite: '&a已将你当前使用的粒子特效加入到粒子组&b%name%&a内!'
 group-load-success: '&a已将&b%amount%&a个粒子特效加入你已保存的粒子组&b%name%&a内!'
 group-load-preset-success: '&a已使用&b%name%&a预设组内的&b%amount%&a个粒子特效!'
-group-unload-success: '&a删除了与组别&b%name%&a相匹配的&b%amount%&a粒子!'
 group-remove-preset: '&c你无法删除预设粒子组!'
 group-remove-success: '&a成功删除粒子组&b%name%&a!'
 group-info-header: '&e粒子组&b%group%&e拥有以下粒子特效:'
@@ -263,10 +263,8 @@ gui-edit-primary-data-description: 编辑之前使用的特效的数据
 
 # GUI Manage Particles Messages
 gui-manage-your-particles: 管理你的粒子特效
-gui-manage-your-particles-name: 管理你的粒子特效
 gui-manage-your-particles-description: 创建、编辑和删除你的粒子特效
 gui-manage-your-groups: 管理你的特效组
-gui-manage-your-groups-name: 管理你的特效组
 gui-manage-your-groups-description: 创建、删除和加载你的粒子组
 
 # GUI Load Messages
@@ -336,3 +334,6 @@ gui-edit-data-color-black: '#000000黑色'
 gui-edit-data-color-gray: '#808080灰色'
 gui-edit-data-color-light-gray: '#c0c0c0淡灰'
 gui-edit-data-color-white: '#ffffff白色'
+group-unload-success: '&a删除了与组别&b%name%&a相匹配的&b%amount%&a粒子!'
+gui-manage-your-particles-name: 管理你的粒子特效
+gui-manage-your-groups-name: 管理你的特效组

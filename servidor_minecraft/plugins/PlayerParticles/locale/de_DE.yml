@@ -1,3 +1,4 @@
+# de_DE translation by Drynael
 # Plugin Message Prefix
 prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
 
@@ -81,7 +82,6 @@ group-save-success: '&aIhre aktuellen Partikel wurden unter der Gruppe &b%name%&
 group-save-success-overwrite: '&aDie Gruppe mit dem Namen &b%name% &awurde mit Ihren aktuellen Partikeln aktualisiert!'
 group-load-success: '&aAngewendete &b%amount% &aPartikel aus Ihrer gespeicherten Gruppe mit dem Namen &b%name%&a!'
 group-load-preset-success: '&aAngewendete &b%amount% &aPartikel aus der voreingestellten Gruppe mit dem Namen &b%name%&a!'
-group-unload-success: '&b%amount% &aPartikel der Gruppe &b%name%&a wurden entfernt!'
 group-remove-preset: '&cSie können keine voreingestellte Gruppe entfernen!'
 group-remove-success: '&aDie Partikelgruppe mit dem Namen &b%name%&awurde entfernt!'
 group-info-header: '&eDie Gruppe &b%group% &eenthält die folgenden Partikel:'
@@ -263,10 +263,8 @@ gui-edit-primary-data-description: Bearbeiten Sie die Daten Ihres Primärpartike
 
 # GUI Manage Particles Messages
 gui-manage-your-particles: Verwalten Sie Ihre Partikel
-gui-manage-your-particles-name: Verwalten Sie Ihre Partikel
 gui-manage-your-particles-description: Erstellen, bearbeiten und löschen Sie Ihre Partikel
 gui-manage-your-groups: Verwalten Sie Ihre Gruppen
-gui-manage-your-groups-name: Verwalten Sie Ihre Gruppen
 gui-manage-your-groups-description: Erstellen, löschen und laden Sie Ihre Partikelgruppen
 
 # GUI Load Messages
@@ -334,3 +332,6 @@ gui-edit-data-color-black: '#000000Schwarz'
 gui-edit-data-color-gray: '#808080Grau'
 gui-edit-data-color-light-gray: '#c0c0c0Hellgrau'
 gui-edit-data-color-white: '#ffffffWeiss'
+group-unload-success: '&b%amount% &aPartikel der Gruppe &b%name%&a wurden entfernt!'
+gui-manage-your-particles-name: Verwalten Sie Ihre Partikel
+gui-manage-your-groups-name: Verwalten Sie Ihre Gruppen
