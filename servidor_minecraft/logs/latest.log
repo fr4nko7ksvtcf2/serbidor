@@ -248,3 +248,88 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [22:24:35] [Server thread/INFO]: chat.type.text
 [22:25:04] [Server thread/INFO]: chat.type.text
 [22:25:30] [Server thread/INFO]: chat.type.text
+[22:29:11] [Server thread/INFO]: death.attack.drown
+[22:29:24] [User Authenticator #4/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[22:29:27] [Server thread/INFO]: Fr4nko7k[/100.74.37.80:57996] logged in with entity id 42408 at (0.5567183723623531, 69.0, -2.4298383200379265)
+[22:29:27] [Server thread/INFO]: multiplayer.player.joined
+[22:29:28] [Server thread/INFO]: [voicechat] Received secret request of Fr4nko7k (18)
+[22:29:28] [Server thread/INFO]: [voicechat] Sent secret to Fr4nko7k
+[22:29:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[22:29:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[22:29:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa) successfully connected to voice chat
+[22:29:39] [Server thread/INFO]: chat.type.admin
+[22:29:41] [Server thread/INFO]: chat.type.admin
+[22:29:43] [Server thread/INFO]: chat.type.admin
+[22:29:43] [Server thread/INFO]: chat.type.advancement.task
+[22:29:45] [Server thread/INFO]: chat.type.admin
+[22:29:46] [Server thread/INFO]: Loaded 1255 recipes
+[22:29:46] [Server thread/ERROR]: Failed to load function snc:api/console_status
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 14: command.unknown.command at position 0: <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 14: command.unknown.command at position 0: <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[22:29:46] [Server thread/ERROR]: Failed to load function snc:api/get/survey_corps/full
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: command.expected.separator at position 19: ...zure_bluet<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: command.expected.separator at position 19: ...zure_bluet<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[22:29:46] [Server thread/ERROR]: Failed to load function snc:shifters/mobs/colossal/action/death/decay
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: argument.float.big at position 50: ...^ ^ ^40 2 <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: argument.float.big at position 50: ...^ ^ ^40 2 <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[22:29:46] [Server thread/INFO]: Loaded 1330 advancements
+[22:29:54] [Server thread/INFO]: chat.type.admin
+[22:30:08] [Server thread/INFO]: chat.type.text
+[22:30:12] [Server thread/INFO]: chat.type.text
+[22:30:14] [Server thread/INFO]: Fr4nko7k lost connection: multiplayer.disconnect.generic
+[22:30:14] [Server thread/INFO]: multiplayer.player.left
+[22:30:14] [Server thread/INFO]: [voicechat] Disconnecting client Fr4nko7k
+[22:30:44] [Server thread/INFO]: Named entity class_1641['9m Titan (Allan)'/38559, l='ServerLevel[world]', x=33.69, y=-218.00, z=-46.69] died: death.attack.genericKill
+[22:32:27] [Server thread/INFO]: Named entity class_1641['6m Titan (Valentina)'/1395, l='ServerLevel[world]', x=14.22, y=-197.00, z=51.04] died: death.attack.genericKill.player
+[22:32:27] [Server thread/INFO]: Named entity class_1641['4m Titan (Zwei)'/22822, l='ServerLevel[world]', x=22.20, y=-198.00, z=43.51] died: death.attack.genericKill
+[22:32:29] [Server thread/INFO]: Named entity class_1641['11m Titan (Ameer)'/34050, l='ServerLevel[world]', x=22.52, y=-195.00, z=37.06] died: death.attack.genericKill
+[22:32:30] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.none'/52770, l='ServerLevel[world]', x=-317.28, y=-191.00, z=-226.37] died, message: 'death.attack.genericKill'
+[22:32:36] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.none'/53152, l='ServerLevel[world]', x=-330.37, y=-183.00, z=-191.72] died, message: 'death.attack.genericKill'
+[22:32:38] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.none'/53303, l='ServerLevel[world]', x=-344.63, y=-183.00, z=-200.28] died, message: 'death.attack.genericKill'
+[22:32:38] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.none'/53305, l='ServerLevel[world]', x=-344.37, y=-183.00, z=-205.72] died, message: 'death.attack.genericKill'
+[22:32:38] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.none'/53306, l='ServerLevel[world]', x=-349.72, y=-183.00, z=-206.63] died, message: 'death.attack.genericKill'
+[22:32:38] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.none'/53357, l='ServerLevel[world]', x=-337.37, y=-184.00, z=-173.72] died, message: 'death.attack.genericKill'
+[22:32:44] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.none'/53801, l='ServerLevel[world]', x=-379.28, y=-181.00, z=-199.37] died, message: 'death.attack.genericKill'
+[22:32:44] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.nitwit'/53802, l='ServerLevel[world]', x=-379.72, y=-182.00, z=-207.63] died, message: 'death.attack.genericKill'
+[22:33:02] [Server thread/ERROR]: Display entityNot a string
+[22:33:07] [Server thread/INFO]: Named entity class_1641['6m Titan (Valentina)'/42821, l='ServerLevel[world]', x=-80.19, y=-186.00, z=-8.01] died: death.attack.genericKill
+[22:34:25] [Server thread/INFO]: chat.type.advancement.task
