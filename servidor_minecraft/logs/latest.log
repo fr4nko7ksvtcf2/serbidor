@@ -228,3 +228,23 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [21:59:26] [Server thread/INFO]: [voicechat] Disconnecting client Fr4nko7k
 [22:06:49] [Server thread/INFO]: [Not Secure] chat.type.announcement
 [22:06:52] [Server thread/INFO]: [Not Secure] chat.type.announcement
+[22:07:23] [User Authenticator #2/INFO]: UUID of player d0ce3_ is 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[22:07:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@44d04fdc[id=31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad,name=d0ce3_,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTcyMjIwNDQ0MzY1MiwKICAicHJvZmlsZUlkIiA6ICIzMWE2ZDg4YTVlYjY0NWFjOWEyM2UwZmY2ZTNhZjhhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkMGNlM18iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjExZjFhYWY5YzhiYzBjOWI2NzEwMDNiNmMxZmYyMzFlNGZkMjYwYjFjYmI3NzM4ZDEwZGRkY2NmZGIwY2UyNCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I0MGE5MmUzMmI1N2ZkNzMyYTAwZmMzMjVlN2FmYjAwYTdjYTc0OTM2YWQ1MGQ4ZTg2MDE1MmU0ODJjZmJkZSIKICAgIH0KICB9Cn0=, signature=Q9F2U+kSTo0qb2fZAw2unH4XppsQykNugnGlpkneSFtawiEKZ6g4L//7ov2vPp56IqI2LqmkPBdDSO9kGWMuHIbpgnBmNlPiYP0KTIVUyn+1FJ7uMVtdOVsA7mmgGM6oYCH3XyEQ4lBn8nE6wV3L3J426u+cZDjmQ5qeVBaQX9qzbk1BEPo3RZJ/E2IWEnlL/Cv5zOzXMmdvizhgDxuEce4kL7D8jRU/Gp9ALHcGbdIlFb2BEcZs48aYn956HqUAeedufT8I3gNAlWXt2K7qMn/M69uDyRQzCMfbG74BNLd/LPgxSq0gTbyEzYg1bJQZKxWEFCLQicbGMKuqNjecT1jRMFVShnWAbqcbLZt1806aNYW/Izov17tw7miDuyFGl30nl6bqESVoi5J/jAmJYKOjWMPua9k/fcgYwj5YKWASPO95LPlUtZaZTwgejl1jV0T5580Y5mtGmG94S7RXuvoyWgMy6FFoNjIJrh8xWNrr/TtZnSBCSrPa62SsQKsYgB8K8VMgmK5Sso9zdQorS4yGOaxf4PX1YwRBpTh8sAqBNph0EuDDgkiPxPV6GGeTrYNJbmu+LjpGNx7wDRSwkXPM/3Obj3eRODvkC1HU05NK9WLyKum5mwovf4XgcRwxXLhFvikEsmYPYog14bH8vnSB1UrjhwfiQQ2nLeD/mLI=]]}] lost connection: multiplayer.disconnect.generic
+[22:13:56] [User Authenticator #3/INFO]: UUID of player d0ce3_ is 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[22:14:01] [Server thread/INFO]: d0ce3_[/100.101.19.125:54435] logged in with entity id 401 at (4.5, 71.0, 5.5)
+[22:14:01] [Server thread/INFO]: multiplayer.player.joined
+[22:14:05] [Server thread/INFO]: [voicechat] Received secret request of d0ce3_ (18)
+[22:14:05] [Server thread/INFO]: [voicechat] Sent secret to d0ce3_
+[22:14:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[22:14:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[22:14:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d0ce3_ (31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad) successfully connected to voice chat
+[22:14:20] [Server thread/INFO]: chat.type.advancement.task
+[22:14:30] [Server thread/INFO]: chat.type.advancement.task
+[22:16:50] [Server thread/INFO]: chat.type.advancement.task
+[22:20:40] [Server thread/INFO]: chat.type.advancement.task
+[22:23:06] [Server thread/INFO]: chat.type.advancement.task
+[22:23:06] [Server thread/INFO]: Named entity class_1641['12m Titan (Michelle)'/2606, l='ServerLevel[world]', x=85.62, y=-195.00, z=60.53] died: death.attack.genericKill.player
+[22:23:50] [Server thread/INFO]: Named entity class_1641['15m Titan (Vladlen)'/22826, l='ServerLevel[world]', x=35.94, y=-196.00, z=52.80] died: death.attack.genericKill.player
+[22:24:35] [Server thread/INFO]: chat.type.text
+[22:25:04] [Server thread/INFO]: chat.type.text
+[22:25:30] [Server thread/INFO]: chat.type.text
