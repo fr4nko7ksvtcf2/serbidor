@@ -333,3 +333,18 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [22:33:02] [Server thread/ERROR]: Display entityNot a string
 [22:33:07] [Server thread/INFO]: Named entity class_1641['6m Titan (Valentina)'/42821, l='ServerLevel[world]', x=-80.19, y=-186.00, z=-8.01] died: death.attack.genericKill
 [22:34:25] [Server thread/INFO]: chat.type.advancement.task
+[22:49:22] [Server thread/INFO]: chat.type.advancement.task
+[22:50:55] [Server thread/ERROR]: Not a number
+[22:50:55] [Server thread/ERROR]: Not a number
+[22:51:06] [Server thread/ERROR]: Not a number
+[22:51:06] [Server thread/ERROR]: Not a number
+[22:51:11] [Server thread/ERROR]: Not a number
+[22:51:11] [Server thread/ERROR]: Not a number
+[22:51:11] [Server thread/ERROR]: Not a number
+[22:51:11] [Server thread/ERROR]: Not a number
+[22:52:19] [Server thread/INFO]: chat.type.advancement.task
+[22:52:48] [Server thread/INFO]: chat.type.admin
+[22:52:50] [Server thread/INFO]: chat.type.admin
+[22:53:03] [Server thread/INFO]: chat.type.advancement.task
+[22:53:04] [Server thread/INFO]: chat.type.advancement.task
+[22:54:22] [Server thread/INFO]: chat.type.advancement.task
