@@ -1,58 +1,13 @@
 {
-  "snc:root": {
-    "criteria": {
-      "unlock": "2024-07-28 21:38:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2024-07-28 21:51:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_logs": "2024-07-28 21:43:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2024-07-28 21:43:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-07-28 21:38:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2024-07-28 21:43:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_wood": {
-    "criteria": {
-      "has_log": "2024-07-28 21:43:27 +0000"
-    },
-    "done": true
-  },
-  "snc:titan/close": {
-    "criteria": {
-      "unlock": "2024-07-28 21:39:01 +0000"
+      "unlock_right_away": "2024-07-28 21:59:13 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2024-07-28 21:38:27 +0000",
-      "minecraft:dark_forest": "2024-07-28 21:50:27 +0000",
-      "minecraft:river": "2024-07-28 21:51:28 +0000",
-      "minecraft:birch_forest": "2024-07-28 21:43:44 +0000"
+      "minecraft:old_growth_birch_forest": "2024-07-28 21:59:14 +0000"
     },
     "done": false
   },
