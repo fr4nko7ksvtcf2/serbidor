@@ -231,3 +231,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [21:40:36] [Server thread/INFO]: chat.type.text
 [21:40:37] [Server thread/INFO]: chat.type.text
 [21:40:38] [Server thread/INFO]: chat.type.text
+[21:50:22] [Server thread/INFO]: Named entity class_1641['12m Titan (Michelle)'/13248, l='ServerLevel[world]', x=-44.87, y=-187.00, z=59.14] died: death.attack.genericKill
+[21:50:55] [Server thread/INFO]: Named entity class_1641['6m Titan (Valentina)'/42, l='ServerLevel[world]', x=-75.05, y=-177.00, z=42.04] died: death.attack.genericKill
+[21:51:35] [Server thread/INFO]: Fr4nko7k lost connection: multiplayer.disconnect.generic
+[21:51:35] [Server thread/INFO]: multiplayer.player.left
+[21:51:35] [Server thread/INFO]: [voicechat] Disconnecting client Fr4nko7k
+[21:51:56] [Server thread/INFO]: Named entity class_1641['6m Titan (Valentina)'/51976, l='ServerLevel[world]', x=-88.68, y=-176.00, z=43.11] died: death.attack.genericKill.player
+[21:51:58] [Server thread/INFO]: Named entity class_1641['15m Titan (Vladlen)'/51873, l='ServerLevel[world]', x=-51.50, y=-191.00, z=38.50] died: death.attack.genericKill
+[21:51:58] [Server thread/INFO]: Named entity class_1641['9m Titan (Allan)'/51972, l='ServerLevel[world]', x=-52.67, y=-192.00, z=-41.07] died: death.attack.genericKill.player
