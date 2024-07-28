@@ -363,3 +363,13 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [23:22:55] [Server thread/INFO]: chat.type.advancement.task
 [23:27:06] [Server thread/INFO]: chat.type.advancement.task
 [23:27:34] [Server thread/INFO]: chat.type.advancement.goal
+[23:29:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad timed out
+[23:29:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player d0ce3_
+[23:29:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to d0ce3_
+[23:29:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[23:29:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[23:29:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d0ce3_ (31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad) successfully connected to voice chat
+[23:32:45] [Server thread/INFO]: chat.type.text
+[23:34:33] [Server thread/INFO]: d0ce3_ lost connection: multiplayer.disconnect.generic
+[23:34:33] [Server thread/INFO]: multiplayer.player.left
+[23:34:33] [Server thread/INFO]: [voicechat] Disconnecting client d0ce3_
