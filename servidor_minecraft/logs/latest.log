@@ -207,3 +207,17 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [01:01:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
 [01:01:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d0ce3_ (31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad) successfully connected to voice chat
 [01:04:14] [Server thread/INFO]: d0ce3_ fell from a high place
+[01:13:46] [Server thread/INFO]: d0ce3_ lost connection: Disconnected
+[01:13:46] [Server thread/INFO]: d0ce3_ left the game
+[01:13:46] [Server thread/INFO]: [voicechat] Disconnecting client d0ce3_
+[01:13:49] [User Authenticator #2/INFO]: UUID of player d0ce3_ is 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[01:13:52] [Server thread/INFO]: d0ce3_[/100.101.19.125:59057] logged in with entity id 49689 at (-337.51249998807907, 71.0, -176.1564175950569)
+[01:13:52] [Server thread/INFO]: d0ce3_ joined the game
+[01:13:54] [Server thread/INFO]: [voicechat] Received secret request of d0ce3_ (18)
+[01:13:54] [Server thread/INFO]: [voicechat] Sent secret to d0ce3_
+[01:13:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[01:13:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[01:13:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d0ce3_ (31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad) successfully connected to voice chat
+[01:17:34] [Server thread/INFO]: d0ce3_ lost connection: Disconnected
+[01:17:34] [Server thread/INFO]: d0ce3_ left the game
+[01:17:34] [Server thread/INFO]: [voicechat] Disconnecting client d0ce3_
