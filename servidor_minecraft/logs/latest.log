@@ -255,3 +255,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [01:50:28] [Server thread/INFO]: d0ce3_ lost connection: Disconnected
 [01:50:28] [Server thread/INFO]: d0ce3_ left the game
 [01:50:28] [Server thread/INFO]: [voicechat] Disconnecting client d0ce3_
+[02:19:14] [User Authenticator #6/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[02:19:17] [Server thread/INFO]: Fr4nko7k[/100.74.37.80:62514] logged in with entity id 151395 at (-16.211527677633406, 88.66207741622142, -36.16202105837117)
+[02:19:17] [Server thread/INFO]: Fr4nko7k joined the game
+[02:19:19] [Server thread/INFO]: [voicechat] Received secret request of Fr4nko7k (18)
+[02:19:19] [Server thread/INFO]: [voicechat] Sent secret to Fr4nko7k
+[02:19:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[02:19:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[02:19:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa) successfully connected to voice chat
