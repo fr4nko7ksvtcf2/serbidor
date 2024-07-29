@@ -1,5 +1,5 @@
-[00:43:13] [main/INFO]: Loading Minecraft 1.20.6 with Fabric Loader 0.16.0
-[00:43:13] [main/INFO]: Loading 81 mods:
+[00:59:07] [main/INFO]: Loading Minecraft 1.20.6 with Fabric Loader 0.16.0
+[00:59:07] [main/INFO]: Loading 80 mods:
 	- cloth-config 14.0.126
 	   \-- cloth-basic-math 0.6.1
 	- clumps 17.0.0.1
@@ -78,7 +78,6 @@
 	- lithium 0.12.3
 	- minecraft 1.20.6
 	- mr_dungeons_andtavernspillageroutpostrework 1-v1.4
-	- mr_shingeki_nocraft 2.2.1
 	- ryoamiclights 0.2.6+mc1.20.6
 	- sit 1.20.6-27
 	- sound_physics_remastered 1.20.6-1.4.2
@@ -95,45 +94,46 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[00:43:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serbidor/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:43:13] [main/INFO]: Compatibility level set to JAVA_21
-[00:43:13] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:43:13] [main/INFO]: Loaded configuration file for Lithium: 124 options available, 1 override(s) found
-[00:43:14] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
-[00:43:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[00:43:14] [main/INFO]: ThreadTweak config initialized
-[00:43:20] [main/INFO]: Loading Collective version 7.61.
-[00:43:20] [main/INFO]: [KONKRETE] Loading v1.9.2 in server-side mode on FABRIC!
-[00:43:20] [main/INFO]: ---------------------------
-[00:43:20] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
-[00:43:20] [main/INFO]:  
-[00:43:20] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
-[00:43:20] [main/INFO]: Open Imaging is licensed under Apache-2.0.
-[00:43:20] [main/INFO]:  
-[00:43:20] [main/INFO]: JsonPath Copyright © 2017 Jayway.
-[00:43:20] [main/INFO]: JsonPath is licensed under Apache-2.0.
-[00:43:20] [main/INFO]:  
-[00:43:20] [main/INFO]: Json-smart Copyright © netplex.
-[00:43:20] [main/INFO]: Json-smart is licensed under Apache-2.0.
-[00:43:20] [main/INFO]:  
-[00:43:20] [main/INFO]: Exp4j Copyright © Frank Asseg.
-[00:43:20] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
-[00:43:20] [main/INFO]: ---------------------------
-[00:43:20] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
-[00:43:21] [main/INFO]: [voicechat] Compatibility version 18
-[00:43:21] [main/INFO]: [voicechat] Loading plugins
-[00:43:21] [main/INFO]: [voicechat] Loaded 1 plugin(s)
-[00:43:21] [main/INFO]: [voicechat] Initializing plugins
-[00:43:21] [main/INFO]: Initializing Simple Voice Chat integration
-[00:43:21] [main/INFO]: [voicechat] Initialized 1 plugin(s)
-[00:43:21] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
-[00:43:21] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@14be34fa]
-[00:43:21] [main/INFO]: WorldEdit for Fabric (version 7.3.2+6779-3aca580) is loaded
-[00:43:21] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:43:23] [Worker-Main-1/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[00:43:25] [main/INFO]: Loaded 1255 recipes
-[00:43:25] [main/ERROR]: Failed to load function snc:api/console_status
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 14: command.unknown.command at position 0: <--[HERE]
+[00:59:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serbidor/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:59:08] [main/INFO]: Compatibility level set to JAVA_21
+[00:59:08] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:59:08] [main/INFO]: Loaded configuration file for Lithium: 124 options available, 1 override(s) found
+[00:59:08] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[00:59:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[00:59:09] [main/INFO]: ThreadTweak config initialized
+[00:59:15] [main/INFO]: Loading Collective version 7.61.
+[00:59:15] [main/INFO]: [KONKRETE] Loading v1.9.2 in server-side mode on FABRIC!
+[00:59:15] [main/INFO]: ---------------------------
+[00:59:15] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[00:59:15] [main/INFO]:  
+[00:59:15] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[00:59:15] [main/INFO]: Open Imaging is licensed under Apache-2.0.
+[00:59:15] [main/INFO]:  
+[00:59:15] [main/INFO]: JsonPath Copyright © 2017 Jayway.
+[00:59:15] [main/INFO]: JsonPath is licensed under Apache-2.0.
+[00:59:15] [main/INFO]:  
+[00:59:15] [main/INFO]: Json-smart Copyright © netplex.
+[00:59:15] [main/INFO]: Json-smart is licensed under Apache-2.0.
+[00:59:15] [main/INFO]:  
+[00:59:15] [main/INFO]: Exp4j Copyright © Frank Asseg.
+[00:59:15] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[00:59:15] [main/INFO]: ---------------------------
+[00:59:15] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[00:59:15] [main/INFO]: [voicechat] Compatibility version 18
+[00:59:15] [main/INFO]: [voicechat] Loading plugins
+[00:59:15] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[00:59:15] [main/INFO]: [voicechat] Initializing plugins
+[00:59:15] [main/INFO]: Initializing Simple Voice Chat integration
+[00:59:15] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[00:59:15] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[00:59:16] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@42ce7e5b]
+[00:59:16] [main/INFO]: WorldEdit for Fabric (version 7.3.2+6779-3aca580) is loaded
+[00:59:16] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:59:16] [main/INFO]: Found new data pack file/Shingeki-no-Craft_2.2.1 (1).zip, loading it automatically
+[00:59:18] [Worker-Main-2/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[00:59:20] [main/INFO]: Loaded 1255 recipes
+[00:59:20] [main/ERROR]: Failed to load function snc:api/console_status
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 14: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
@@ -143,13 +143,13 @@ java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Wh
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 14: command.unknown.command at position 0: <--[HERE]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 14: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
 	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[00:43:25] [main/ERROR]: Failed to load function snc:api/get/survey_corps/full
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: command.expected.separator at position 19: ...zure_bluet<--[HERE]
+[00:59:20] [main/ERROR]: Failed to load function snc:api/get/survey_corps/full
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected whitespace to end one argument, but found trailing data at position 19: ...zure_bluet<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
@@ -159,13 +159,13 @@ java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Wh
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: command.expected.separator at position 19: ...zure_bluet<--[HERE]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected whitespace to end one argument, but found trailing data at position 19: ...zure_bluet<--[HERE]
 	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
 	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[00:43:25] [main/ERROR]: Failed to load function snc:shifters/mobs/colossal/action/death/decay
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: argument.float.big at position 50: ...^ ^ ^40 2 <--[HERE]
+[00:59:20] [main/ERROR]: Failed to load function snc:shifters/mobs/colossal/action/death/decay
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Float must not be more than 2.0, found 3.0 at position 50: ...^ ^ ^40 2 <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
@@ -175,25 +175,35 @@ java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Wh
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: argument.float.big at position 50: ...^ ^ ^40 2 <--[HERE]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Float must not be more than 2.0, found 3.0 at position 50: ...^ ^ ^40 2 <--[HERE]
 	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
 	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[00:43:25] [main/INFO]: Loaded 1330 advancements
-[00:43:25] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.371 ms
-[00:43:25] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[00:43:25] [Server thread/INFO]: Loading properties
-[00:43:25] [Server thread/INFO]: Default game type: SURVIVAL
-[00:43:25] [Server thread/INFO]: Generating keypair
-[00:43:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:43:26] [Server thread/INFO]: Using epoll channel type
-[00:43:26] [Server thread/INFO]: Preparing level "world"
-[00:43:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:43:29] [Worker-Main-2/INFO]: menu.preparingSpawn
-[00:43:29] [Worker-Main-2/INFO]: menu.preparingSpawn
-[00:43:29] [Worker-Main-3/INFO]: menu.preparingSpawn
-[00:43:30] [Worker-Main-2/INFO]: menu.preparingSpawn
-[00:43:30] [Server thread/INFO]: Time elapsed: 1634 ms
-[00:43:30] [Server thread/INFO]: Done (4.024s)! For help, type "help"
-[00:43:30] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 100.105.251.51:24454
+[00:59:21] [main/INFO]: Loaded 1330 advancements
+[00:59:21] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.525 ms
+[00:59:21] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[00:59:21] [Server thread/INFO]: Loading properties
+[00:59:21] [Server thread/INFO]: Default game type: SURVIVAL
+[00:59:21] [Server thread/INFO]: Generating keypair
+[00:59:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:59:22] [Server thread/INFO]: Using epoll channel type
+[00:59:22] [Server thread/INFO]: Preparing level "world"
+[00:59:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:59:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:59:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:59:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:59:26] [Worker-Main-1/INFO]: Preparing spawn area: 53%
+[00:59:26] [Server thread/INFO]: Time elapsed: 1591 ms
+[00:59:26] [Server thread/INFO]: Done (4.107s)! For help, type "help"
+[00:59:26] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 100.105.251.51:24454
+[00:59:45] [Server thread/INFO]: [Not Secure] [Server] gola
+[01:00:52] [User Authenticator #1/INFO]: UUID of player d0ce3_ is 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[01:00:55] [Server thread/INFO]: d0ce3_[/100.101.19.125:64842] logged in with entity id 5 at (-338.3728915343758, 72.0, -172.62558312800044)
+[01:00:55] [Server thread/INFO]: d0ce3_ joined the game
+[01:00:57] [Server thread/INFO]: [voicechat] Received secret request of d0ce3_ (18)
+[01:00:57] [Server thread/INFO]: [voicechat] Sent secret to d0ce3_
+[01:00:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[01:01:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[01:01:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d0ce3_ (31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad) successfully connected to voice chat
+[01:04:14] [Server thread/INFO]: d0ce3_ fell from a high place
