@@ -221,3 +221,22 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [01:17:34] [Server thread/INFO]: d0ce3_ lost connection: Disconnected
 [01:17:34] [Server thread/INFO]: d0ce3_ left the game
 [01:17:34] [Server thread/INFO]: [voicechat] Disconnecting client d0ce3_
+[01:25:05] [User Authenticator #3/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[01:25:09] [Server thread/INFO]: Fr4nko7k[/100.74.37.80:60518] logged in with entity id 63948 at (-8.151572037442183, 87.24838196011223, -22.75588235953835)
+[01:25:09] [Server thread/INFO]: Fr4nko7k joined the game
+[01:25:10] [Server thread/INFO]: [voicechat] Received secret request of Fr4nko7k (18)
+[01:25:10] [Server thread/INFO]: [voicechat] Sent secret to Fr4nko7k
+[01:25:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[01:25:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[01:25:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa) successfully connected to voice chat
+[01:27:09] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
+[01:27:09] [Server thread/INFO]: Fr4nko7k left the game
+[01:27:09] [Server thread/INFO]: [voicechat] Disconnecting client Fr4nko7k
+[01:28:52] [User Authenticator #4/INFO]: UUID of player d0ce3_ is 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[01:28:56] [Server thread/INFO]: d0ce3_[/100.101.19.125:59359] logged in with entity id 69170 at (-340.8452239317454, 71.9375, -192.50466014516238)
+[01:28:56] [Server thread/INFO]: d0ce3_ joined the game
+[01:28:58] [Server thread/INFO]: [voicechat] Received secret request of d0ce3_ (18)
+[01:28:58] [Server thread/INFO]: [voicechat] Sent secret to d0ce3_
+[01:29:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[01:29:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
+[01:29:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d0ce3_ (31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad) successfully connected to voice chat
