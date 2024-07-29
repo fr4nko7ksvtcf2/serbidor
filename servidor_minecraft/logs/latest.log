@@ -252,3 +252,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [01:35:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
 [01:35:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad
 [01:35:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d0ce3_ (31a6d88a-5eb6-45ac-9a23-e0ff6e3af8ad) successfully connected to voice chat
+[01:50:28] [Server thread/INFO]: d0ce3_ lost connection: Disconnected
+[01:50:28] [Server thread/INFO]: d0ce3_ left the game
+[01:50:28] [Server thread/INFO]: [voicechat] Disconnecting client d0ce3_
