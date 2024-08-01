@@ -1,0 +1,31 @@
+[06:07:28] [main/INFO]: Loading Minecraft 1.20.6 with Fabric Loader 0.15.11
+[06:07:28] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[06:07:28] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- java 21
+	- minecraft 1.20.6
+[06:07:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/serbidor/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[06:07:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:07:34] [main/INFO]: No existing world data, creating new world
+[06:07:35] [main/INFO]: Loaded 1175 recipes
+[06:07:35] [main/INFO]: Loaded 1276 advancements
+[06:07:36] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[06:07:36] [Server thread/INFO]: Loading properties
+[06:07:36] [Server thread/INFO]: Default game type: SURVIVAL
+[06:07:36] [Server thread/INFO]: Generating keypair
+[06:07:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:07:36] [Server thread/INFO]: Using epoll channel type
+[06:07:36] [Server thread/INFO]: Preparing level "world"
+[06:07:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:07:41] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[06:07:42] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[06:07:42] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[06:07:43] [Worker-Main-1/INFO]: Preparing spawn area: 14%
+[06:07:43] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[06:07:44] [Worker-Main-1/INFO]: Preparing spawn area: 32%
+[06:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[06:07:45] [Worker-Main-3/INFO]: Preparing spawn area: 59%
+[06:07:45] [Worker-Main-1/INFO]: Preparing spawn area: 71%
+[06:07:46] [Server thread/INFO]: Time elapsed: 4339 ms
+[06:07:46] [Server thread/INFO]: Done (9.702s)! For help, type "help"
